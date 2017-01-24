@@ -41,9 +41,7 @@ public class ApplicationContext {
 
     public Set<Class<?>> findClassesByPackage(String packageName) throws Exception {
         //http://stackoverflow.com/questions/1771679/difference-between-threads-context-class-loader-and-normal-classloader
-        //为什么是contextClassLoader而不是ClassLoader
         classLoader = Thread.currentThread().getContextClassLoader();
-        //为什么用了jdk7语法后面范型依然要显式
         Set<Class<?>> set = new LinkedHashSet<Class<?>>();
         String packagePath = packageName.replace('.', '/');
         Enumeration<URL> dirs = classLoader.getResources(packagePath);
