@@ -17,3 +17,14 @@ An sample explained in an easy to understand IOC way
 Gmail:luolouiegit@gmail.com
 
 QQ :510629251@qq.com
+
+# Quick Start
+
+ApplicationContext context = new ApplicationContext();
+
+context.init("classpath");
+
+TargetBean bean =(TargetBean)context.getBeans().get("bean");
+
+bean.callMethod();
+
