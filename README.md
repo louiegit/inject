@@ -1,6 +1,6 @@
-# louie-ioc
+# inject (louie-ioc)
 # author:tianxiang.luo
-An sample explained in an easy to understand IOC way
+
 
 这是用来理解最基本IOC原理的:
 
