@@ -20,9 +20,9 @@ QQ :510629251@qq.com
 
 # Quick Start
 
-ApplicationContext context = new ApplicationContext();
+ApplicationContext context = new ApplicationContext("classpath");
 
-context.init("classpath");
+context.init();
 
 TargetBean bean =(TargetBean)context.getBeans().get("bean");
 
