@@ -1,4 +1,15 @@
-#### inject (louie-ioc)
+#### inject
+
+# Quick Start
+```java
+ApplicationContext context = new ApplicationContext("classpath");
+
+context.init();
+
+TargetBean bean =(TargetBean)context.getBeans().get("bean");
+
+bean.callMethod();
+```
 
 这是用来理解最基本IOC原理的:
 
@@ -10,19 +21,4 @@
 
 (4)在AppTest中根据IOC容器获取Bean,即可实现最基本的IOC
 
-喜欢一起聊技术的coder可以mail我^_^
-
 Gmail:luolouiegit@gmail.com
-
-QQ :510629251@qq.com
-
-# Quick Start
-
-ApplicationContext context = new ApplicationContext("classpath");
-
-context.init();
-
-TargetBean bean =(TargetBean)context.getBeans().get("bean");
-
-bean.callMethod();
-
