@@ -1,6 +1,4 @@
-# inject (louie-ioc)
-# author:tianxiang.luo
-
+#### inject (louie-ioc)
 
 这是用来理解最基本IOC原理的:
 
