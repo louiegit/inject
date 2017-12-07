@@ -11,7 +11,7 @@ TargetBean bean =(TargetBean)context.getBeans().get("bean");
 bean.callMethod();
 ```
 
-这是用来理解最基本IOC原理的:
+IOC原理的:
 
 (1)首先扫描包初始化上下文
 
