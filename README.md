@@ -1,6 +1,4 @@
-#### inject
-
-# Quick Start
+### Quick Start
 ```java
 ApplicationContext context = new ApplicationContext("classpath");
 
